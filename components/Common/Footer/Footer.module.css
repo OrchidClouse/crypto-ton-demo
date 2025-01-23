@@ -1,0 +1,31 @@
+.footer {
+	display: grid;
+
+	width: calc(100% - 40px);
+	margin-top: 20px;
+	padding: 80px 20px;
+
+	border-top: 1px solid var(--darkLight);
+	justify-items: center;
+	gap: 40px;
+}
+
+.footerText {
+	text-align: center;
+
+	font-weight: 600 !important;
+}
+
+@media (max-width: 1024px) {
+	.footer {
+		padding: 60px 20px;
+		gap: 30px;
+	}
+}
+
+@media (max-width: 580px) {
+	.footer {
+		padding: 40px 20px;
+		gap: 20px;
+	}
+}

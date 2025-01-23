@@ -1,0 +1,8 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+Crawl-delay: 10
+
+Sitemap: https://turboton.vercel.app/sitemap.xml
